@@ -25,6 +25,7 @@ func KeycloakDiscoveryService(cr *v1alpha1.Keycloak) *v1.Service {
 			Ports: []v1.ServicePort{
 				{
 					Port:       8080,
+					Name:       "http",
 					TargetPort: intstr.FromInt(8080),
 				},
 			},
