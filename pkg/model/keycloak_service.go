@@ -33,6 +33,12 @@ func KeycloakService(cr *v1alpha1.Keycloak) *v1.Service {
 					Name:       "http",
 					Protocol:   "TCP",
 				},
+				{
+					Port:       KeycloakHttpsServicePort,
+					TargetPort: intstr.FromInt(KeycloakHttpsServicePort),
+					Name:       "https",
+					Protocol:   "TCP",
+				},
 			},
 		},
 	}
