@@ -38,8 +38,19 @@ func getKeycloakEnv(cr *v1alpha1.Keycloak, dbSecret *v1.Secret) []v1.EnvVar {
 			Value: "public",
 		},
 		{
-			Name:  "DB_ADDR",
-			Value: PostgresqlServiceName + "." + cr.Namespace + ".svc.cluster.local",
+			Name:  "PROXY_ADDRESS_FORWARDING",
+			Value: "true",
+		},
+		{
+			Name: "DB_ADDR",
+			ValueFrom: &v1.EnvVarSource{
+				SecretKeyRef: &v1.SecretKeySelector{
+					LocalObjectReference: v1.LocalObjectReference{
+						Name: DatabaseSecretName,
+					},
+					Key: DatabaseSecretHostProperty,
+				},
+			},
 		},
 		{
 			Name:  "DB_DATABASE",
