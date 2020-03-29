@@ -30,7 +30,7 @@ func KeycloakService(cr *v1alpha1.Keycloak) *v1.Service {
 				{
 					Port:       KeycloakServicePort,
 					TargetPort: intstr.FromInt(KeycloakServicePort),
-					Name:       ApplicationName,
+					Name:       "http-" + ApplicationName,
 					Protocol:   "TCP",
 				},
 			},
