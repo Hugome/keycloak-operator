@@ -68,6 +68,9 @@ spec:
                     pointing to Keycloak.
                   type: boolean
               type: object
+            frontendURL:
+              description: Specify frontend URL
+              type: string
             instances:
               description: Number of Keycloak instances in HA mode. Default is 1.
               type: integer

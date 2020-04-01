@@ -51,6 +51,9 @@ type KeycloakSpec struct {
 	// Specify PodDisruptionBudget configuration
 	// +optional
 	PodDisruptionBudget PodDisruptionBudgetConfig `json:"podDisruptionBudget,omitempty"`
+	// Specify frontend URL
+	// +optional
+	FrontendURL string `json:"frontendURL,omitempty"`
 }
 
 type KeycloakExternalAccess struct {

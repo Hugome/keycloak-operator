@@ -42,6 +42,10 @@ func getKeycloakEnv(cr *v1alpha1.Keycloak, dbSecret *v1.Secret) []v1.EnvVar {
 			Value: "true",
 		},
 		{
+			Name:  "KEYCLOAK_FRONTEND_URL",
+			Value: cr.Spec.FrontendURL,
+		},
+		{
 			Name: "DB_ADDR",
 			ValueFrom: &v1.EnvVarSource{
 				SecretKeyRef: &v1.SecretKeySelector{
