@@ -8,7 +8,7 @@ metadata:
     containerImage: 'quay.io/keycloak/keycloak-operator:8.0.2'
     createdAt: 2020-02-19 00:00:00
     description: 'An Operator for installing and managing Keycloak'
-    repository: 'https://github.com/keycloak/keycloak-operator'
+    repository: 'https://github.com/hugome/keycloak-operator'
     support: Red Hat
     alm-examples: |-
       [
@@ -334,7 +334,7 @@ spec:
     - Access
   links:
     - name: Documentation
-      url: https://github.com/keycloak/keycloak-operator/tree/8.0.2/docs
+      url: https://github.com/hugome/keycloak-operator/tree/8.0.2/docs
     - name: Keycloak
       url: https://www.keycloak.org/
     - name: Keycloak Discourse

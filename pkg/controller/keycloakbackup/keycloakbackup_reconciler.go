@@ -1,9 +1,9 @@
 package keycloakbackup
 
 import (
-	kc "github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/common"
-	"github.com/keycloak/keycloak-operator/pkg/model"
+	kc "github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	"github.com/hugome/keycloak-operator/pkg/common"
+	"github.com/hugome/keycloak-operator/pkg/model"
 )
 
 type Reconciler interface {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/common"
-	"github.com/keycloak/keycloak-operator/pkg/model"
+	"github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	"github.com/hugome/keycloak-operator/pkg/common"
+	"github.com/hugome/keycloak-operator/pkg/model"
 	v13 "k8s.io/api/apps/v1"
 )
 

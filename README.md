@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/keycloak/keycloak-operator.svg?branch=master)](https://travis-ci.org/keycloak/keycloak-operator)
-[![Go Report Card](https://goreportcard.com/badge/github.com/keycloak/keycloak-operator)](https://goreportcard.com/report/github.com/keycloak/keycloak-operator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hugome/keycloak-operator)](https://goreportcard.com/report/github.com/hugome/keycloak-operator)
 [![Coverage Status](https://coveralls.io/repos/github/keycloak/keycloak-operator/badge.svg?branch=master)](https://coveralls.io/github/keycloak/keycloak-operator?branch=master)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 

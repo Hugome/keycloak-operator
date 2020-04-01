@@ -7,17 +7,17 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/keycloak/keycloak-operator/version"
+	"github.com/hugome/keycloak-operator/version"
 
-	"github.com/keycloak/keycloak-operator/pkg/common"
+	"github.com/hugome/keycloak-operator/pkg/common"
 	routev1 "github.com/openshift/api/route/v1"
 
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/rest"
 
-	"github.com/keycloak/keycloak-operator/pkg/apis"
-	"github.com/keycloak/keycloak-operator/pkg/controller"
+	"github.com/hugome/keycloak-operator/pkg/apis"
+	"github.com/hugome/keycloak-operator/pkg/controller"
 
 	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
 	grafanav1alpha1 "github.com/integr8ly/grafana-operator/v3/pkg/apis/integreatly/v1alpha1"

@@ -1,7 +1,7 @@
 # Other contants
 NAMESPACE=keycloak
 PROJECT=keycloak-operator
-PKG=github.com/keycloak/keycloak-operator
+PKG=github.com/hugome/keycloak-operator
 OPERATOR_SDK_VERSION=v0.15.1
 OPERATOR_SDK_DOWNLOAD_URL=https://github.com/operator-framework/operator-sdk/releases/download/$(OPERATOR_SDK_VERSION)/operator-sdk-$(OPERATOR_SDK_VERSION)-x86_64-linux-gnu
 MINIKUBE_DOWNLOAD_URL=https://storage.googleapis.com/minikube/releases/v1.4.0/minikube-linux-amd64

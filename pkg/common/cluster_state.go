@@ -9,9 +9,9 @@ import (
 	"k8s.io/api/extensions/v1beta1"
 
 	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
+	kc "github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	"github.com/hugome/keycloak-operator/pkg/model"
 	grafanav1alpha1 "github.com/integr8ly/grafana-operator/v3/pkg/apis/integreatly/v1alpha1"
-	kc "github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/model"
 	v12 "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 	apiErrors "k8s.io/apimachinery/pkg/api/errors"

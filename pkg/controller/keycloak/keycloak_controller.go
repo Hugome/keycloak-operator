@@ -7,7 +7,7 @@ import (
 
 	v1beta12 "k8s.io/api/policy/v1beta1"
 
-	"github.com/keycloak/keycloak-operator/pkg/model"
+	"github.com/hugome/keycloak-operator/pkg/model"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/tools/record"
@@ -19,10 +19,10 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	kc "github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	keycloakv1alpha1 "github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/common"
+	"github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	kc "github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	keycloakv1alpha1 "github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	"github.com/hugome/keycloak-operator/pkg/common"
 
 	"k8s.io/api/extensions/v1beta1"
 	"k8s.io/apimachinery/pkg/api/errors"

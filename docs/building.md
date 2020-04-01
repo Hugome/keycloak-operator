@@ -3,7 +3,7 @@
 ## Local Development
 *Note*: You will need a running Kubernetes or OpenShift cluster to use the Operator
 
-1.  clone this repo to `$GOPATH/src/github.com/keycloak/keycloak-operator`
+1.  clone this repo to `$GOPATH/src/github.com/hugome/keycloak-operator`
 2.  run `make setup/mod cluster/prepare`
 3.  run `make code/run`
 -- The above step will launch the operator on the local machine

@@ -9,9 +9,9 @@ import (
 
 	monitoringv1 "github.com/coreos/prometheus-operator/pkg/apis/monitoring/v1"
 	grafanav1alpha1 "github.com/integr8ly/grafana-operator/v3/pkg/apis/integreatly/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/common"
-	"github.com/keycloak/keycloak-operator/pkg/model"
+	"github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	"github.com/hugome/keycloak-operator/pkg/common"
+	"github.com/hugome/keycloak-operator/pkg/model"
 	"github.com/stretchr/testify/assert"
 	v13 "k8s.io/api/apps/v1"
 )

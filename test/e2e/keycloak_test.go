@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	apis "github.com/keycloak/keycloak-operator/pkg/apis"
-	keycloakv1alpha1 "github.com/keycloak/keycloak-operator/pkg/apis/keycloak/v1alpha1"
-	"github.com/keycloak/keycloak-operator/pkg/model"
+	apis "github.com/hugome/keycloak-operator/pkg/apis"
+	keycloakv1alpha1 "github.com/hugome/keycloak-operator/pkg/apis/keycloak/v1alpha1"
+	"github.com/hugome/keycloak-operator/pkg/model"
 	framework "github.com/operator-framework/operator-sdk/pkg/test"
 	"github.com/operator-framework/operator-sdk/pkg/test/e2eutil"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
